@@ -15,10 +15,18 @@ export default function Topbar() {
           <li className="topListItem">
             <Link className="link" to="/">Anasayfa</Link>
           </li>
-          <li className="topListItem">Hakkımda</li>
-          <li className="topListItem">İletişim</li>
-          <li className="topListItem"><Link className="link" to="/write">Yazı Yaz</Link></li>
-          {user && <li className="topListItem">Çıkış Yap</li>}
+          <li className="topListItem">
+              <Link className="link" to="/">Hakkımda</Link>
+          </li>
+          <li className="topListItem">
+              <Link className="link" to="/">İletişim</Link>
+          </li>
+          <li className="topListItem">
+              <Link className="link" to="/write">Yazı Yaz</Link>
+          </li>
+          {user && <li className="topListItem">
+              <Link className="link" to="/">Çıkış Yap</Link>
+          </li>}
         </ul>
       </div>
       <div className="topRight">

@@ -16,7 +16,7 @@ export default function Write() {
           <input id="fileInput" type="file" style={{ display: "none" }} />
           <input
             className="writeInput"
-            placeholder="Title"
+            placeholder="Başlık"
             type="text"
             autoFocus={true}
           />
@@ -24,7 +24,7 @@ export default function Write() {
         <div className="writeFormGroup">
           <textarea
             className="writeInput writeText"
-            placeholder="Tell your story..."
+            placeholder="Paylaşmak istediklerini yaz..."
             type="text"
             autoFocus={true}
           />

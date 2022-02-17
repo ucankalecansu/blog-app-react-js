@@ -7,7 +7,7 @@ export default function Settings() {
       <div className="settingsWrapper">
         <div className="settingsTitle">
           <span className="settingsTitleUpdate">Hesabını Güncelle</span>
-          <span className="settingsTitleDelete">Hesabı Sil</span>
+          <span className="settingsTitleDelete">Hesabını Sil</span>
         </div>
         <form className="settingsForm">
           <label>Profil Resmi</label>
@@ -26,12 +26,12 @@ export default function Settings() {
               className="settingsPPInput"
             />
           </div>
-          <label>Username</label>
+          <label>Kullanıcı Adı</label>
           <input type="text" placeholder="Cansu Uçankale" name="name" />
-          <label>Email</label>
+          <label>Email Adresi</label>
           <input type="email" placeholder="ucankalecansu@gmail.com" name="email" />
-          <label>Password</label>
-          <input type="password" placeholder="Password" name="password" />
+          <label>Şifre</label>
+          <input type="password" placeholder="Yeni şifrenizi giriniz." name="password" />
           <button className="settingsSubmitButton" type="submit">
             Güncelle
           </button>

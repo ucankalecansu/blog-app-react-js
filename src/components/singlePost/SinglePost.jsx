@@ -21,7 +21,7 @@ export default function SinglePost() {
           <span>
             Yazar:
             <b className="singlePostAuthor">
-              <Link className="link" to="/posts?username=Safak">
+              <Link className="link" to="/posts?username=Cansu">
                 Cansu Uçankale
               </Link>
             </b>
